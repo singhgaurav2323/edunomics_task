@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.img{
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 90vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.img1{
+  width: 40vw;
+  margin-left: 20%;
+  padding: 20px;
+}
+
+.center {
+  font-size: 18px;
+  text-align: center;
+}
+
+.center-allign{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  
+}
+
+.top {
+  top: 10%;
+  left: 50%;
+  font-size: 18px;
+}
+
+.btn-small{
+  opacity: 0.8;
+  background-color:inherit;
+}
+
+.btn{
+  margin-top: 20px;
+  border-radius: 40px;
+  height: 50%;
+  width: 15vw;
+  background-color: crimson;
+  font-size: 16px;
+  font-weight: 20px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.signup1{
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 33vw;
+  
+  
+}
+.heading{
+  margin-bottom: 50px;
+}
+
+.field{
+  border-radius: 22px;
+  padding: 40px ;
+}
+
+.LogIn{
+  position: absolute;
+  top: 44%;
+  left:85%;
+  transform: translate(-50%, -50%);
+}
+
+div[disabled]
+{
+  pointer-events: none;
+  opacity: 0;
+}
+
+
+nav[disabled]{
+  opacity: 0.6;
+}
+
+.footer{
+  padding: 35px;
+  background-color: rgb(87, 71, 71);
+  margin-top: 20px;
+}
+
+.content{
+  font-size: 15px;
+}
+
+.nav-dash{
+  background-color: rgb(109, 146, 151);
+}
+
+.account{
+  border-radius: 30px;
+  color:rgb(37, 35, 35);
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  font-size: 13px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.sideslide{
+  font-size: 22px;
+  font-weight: 400;
+  padding: 12px;
+  color: white;
+}
+
+.side{
+  background-color: gray;
+
+}
+
+
+.card11{
+  width:14vw;
+  height: 18vh;
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  font-weight: 200;
+  font-size: 16px;
+  color: maroon;
+}
+
+.card1{
+  width:16vw;
+  height: 20vh;
+  text-align: center;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  color: maroon;
+}
+
+.cards{
+  padding: 14px;
+  background-color: darkgray;
+}
+
+.sub{
+  background-color: white;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.foot{
+  background-color: white;
+}
+
+.foot-content{
+  font-size: 10px;
+  font-weight: 100;
+  text-align: center;
+}
